@@ -34,7 +34,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: yyych0602/cicd:v1.1
+        tags: yyych0602/cicd:v1.0
 
     - name: Image digest
       run: echo ${{ steps.docker_build.outputs.digest }}
